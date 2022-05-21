@@ -6,6 +6,7 @@ This library has less than 200 lines of code. It uses GPIO pins to emulate SSC t
 
 # Usage
 
+`
 #include <TLE5012.h>
 
 unsigned char ssc_delay = 0; // SSC clock frequency adjust, 0 = fastest, 255 = slowest
@@ -25,6 +26,7 @@ void loop() {
         Serial.println(x);
     }
 }
+`
 
 # License
 
